@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  background-image: url("/media/WebsitePicture1.JPG");
+  background-size: cover;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #0000c8;
+    padding-top: 50px;
+}
+h2{
+    text-shadow: 2px 2px black;
+    font-size: 100px;
+}
+p{
+    text-align: center;
+    padding: 1% 25%;
+    
+    font-size: 20px;
+    line-height: 40px;
+    padding: 1% 10%;
+}
+ul{
+    display: inline-block;
+    text-align: left; 
+}
+.contactIcons{
+    margin: auto;
+    width: 50%;
+}
+form{
+    margin: auto;
+    width: 60%;
+    
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+textarea{
+    max-height: 500px;
+    min-height: 75px;
+}
+.icon{
+    color: #0000c8;
+    white-space: nowrap;
+}
+.services-list{
+    font-size: 15px;
+    white-space: nowrap
+}
+.servicesImage{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav{
+        font-size: 1.3vw;
+    }
+    body{
+        padding: 0% 10%;
+    }
+    .servicesImage{
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    body{
+        padding: 0% 15%;
+    }    
+}
+@media only screen and (max-width: 800px) {
+    p{
+        font-size: 20px;
+        line-height: 40px;
+        padding: 1% 10%;
+    }
+    h1{
+        padding: 5% 10% 0% 10%;
+    }
+    form{
+        width: 90%;
+    }
+    textarea{
+        max-height: 500px;
+        min-height: 200px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    li{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .icon{
+        font-size: 20px;
+    }
+    .fa-map-marker-alt{
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .carousel-caption{
+        top: 40%;
+    }
+    .carousel-caption h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .navbar-brand img{
+        width: 215px;
+    }
+    .carousel-caption{
+        top: 10%;
+    }
+}
