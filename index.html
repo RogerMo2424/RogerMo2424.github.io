@@ -212,7 +212,7 @@ max-height:75%;">
       </div>
         </div>
     
-    <form method="post" action="contact.php" onsubmit="displayFormSuccess()">
+    <form method="post" action="https://formspree.io/rjmorrison5@rochester.rr.com" onsubmit="displayFormSuccess()">
         
         <div class="alert alert-success" style="display: none">
           <strong>Success!</strong> Your contact form has been submitted.
@@ -231,11 +231,17 @@ max-height:75%;">
         
         <div class="row">
             <div class="col">
-                <input name="email" type="email" class="form-control" placeholder="Email Address" required>
+                <input name="_replyto" type="email" class="form-control" placeholder="Email Address" required>
             </div>
             <div class="col">
                 <input name="phoneNumber" type="text" class="form-control" placeholder="Tel. Number">
             </div>
+            
+            <input name="_subject" type="text" class="form-control" value="Website Inquiry" style="display: none;">
+            
+            <input name="name" type="text" class="form-control" style="display: none;">
+            
+            <input name="_gotcha" type="text" class="form-control" style="display: none;">
         </div>
         
         <br>
